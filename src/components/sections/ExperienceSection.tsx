@@ -1,7 +1,8 @@
+
 import { experiences } from '@/lib/data';
 import SectionTitle from '@/components/shared/SectionTitle';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Briefcase, CheckCircle } from 'lucide-react';
+import { Briefcase, CheckCircle, Star } from 'lucide-react'; // Added Star import
 import Image from 'next/image';
 
 const ExperienceSection: React.FC = () => {
